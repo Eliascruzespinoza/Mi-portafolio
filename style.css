@@ -1,0 +1,328 @@
+/* Estilos base para todos los tamaños de pantalla */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 15px;
+    font-size: 16px; /* Cambiado a un tamaño de fuente más estándar */
+}
+
+/* Menú Styles */
+
+.menu {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Centra el texto del menú */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.menu__header{
+    display: flex;
+    text-align: left;
+    padding: 10px;
+}
+
+.menu__title{
+    padding-left: 10px;
+}
+
+.menu__list {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+.menu__list__item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu__list__item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Title Styles */
+.title {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.title__network {
+    list-style: none;
+    display: flex; /* Usa flexbox para alinear los elementos de la red */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Centra el título */
+    padding: 20px;  /*Separacion*/
+    font-size: 20px;/*Tamaño*/
+    font-weight: bold;/*letras negritas*/
+}
+
+.title__network__item {
+    margin-right: 20px;
+}
+
+.title__network__item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.title__profile{
+    height: 250px;
+    border-radius: 90%;
+}
+/*------titulo sobremi*/
+.about__title{
+    padding: 10px;
+    font-size: 1.9rem;/*tamaño de letra*/
+    font-weight: bold;/*letras negritas*/
+}
+/*------fin titulo sobre mi.------*/
+
+/* Sección Sobre mí */
+.about {
+    padding: 50px;
+    text-align: justify; /* Justifica el texto */
+}
+
+/*---------seciont imagenes skills y hobbies*/
+.img_skill{
+    height: 40px;/*alto*/
+    width: 30px;/*ancho*/
+}
+
+.img_hobbies{
+    height: 40px;/*alto*/
+    width: 30px;/*ancho*/
+}
+
+/*---------------fin seccion imagenes skills y hobbies*/
+/* Sección de Skills */
+.skills {
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+.skills__title {
+    text-align: center; /* Centra el título */
+    padding: 10px;  /*Separacion*/
+    font-size: 2rem;/*Tamaño*/
+    font-weight: bold;/*letras negritas*/
+    }
+
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos */
+}
+
+.skills__box {
+    flex: 0 0 calc(33.3333% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Centra el contenido */
+}
+
+
+/* Sección de Hobbies */
+.hobbies {
+    padding: 50px;
+}
+
+.hobbies__title {
+    text-align: center; /* Centra el título */
+    padding: 20px;  /*Separacion*/
+    font-size: 30px;/*Tamaño*/
+    font-weight: bold;/*letras negritas*/
+}
+
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos */
+}
+
+.hobbies__box {
+    flex: 0 0 calc(33.3333% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Centra el contenido */
+}
+
+/* Sección de Formación Académica */
+.academic {
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+.academic__title {
+    text-align: center; /* Centra el título */
+    padding: 10px;  /*Separacion*/
+    font-size: 2rem;/*Tamaño*/
+    font-weight: bold;/*letras negritas*/
+}
+
+.academic__courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos */
+}
+
+.academic__courses__box {
+    flex: 0 0 calc(33.3333% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Centra el contenido */
+    
+}
+
+
+/* Sección de Experiencia Profesional/Proyectos */
+.experience {
+    padding: 50px;
+    text-align: center;
+}
+
+.experience__section__title {
+    text-align: center; /* Centra el título */
+    font-size: 2rem;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.experience__info{
+    padding: 10px;
+}
+
+.experience__box {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.experience__img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.about__paragraph{
+    font-size: 1.1rem;
+}
+
+.experience__description {
+    display: flex;
+    justify-content: center; /* Centra los botones */
+}
+.experience_text{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.experience__botao--repo,
+.experience__botao--demo {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+
+.experience__botao--repo:hover,
+.experience__botao--demo:hover {
+    background-color: #555;
+}
+
+/* Sección de Contacto */
+.formcontato {
+    background-color: #f2f2f2;
+    padding: 50px;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.formcontato__img {
+    width: 200px;
+    margin-right: 50px;
+}
+
+.formcontato__text {
+    flex-grow: 1;
+}
+
+.formcontato__title {
+    text-align: center; /* Centra el título */
+    padding: 10px;  /*Separacion*/
+    font-size: 2rem;/*Tamaño*/
+    font-weight: bold;/*letras negritas*/
+}
+
+.formcontato__subtext {
+    text-align: center; /* Centra el texto */
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.formcontato__input,
+.formcontato__textarea {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formcontato__botao {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.formcontato__botao:hover {
+    background-color: #555;
+}
+
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Ejemplo de una mediaquery aqui cuando la pantalla es menor de
+los 600px esconde la imagen, tambien modifica el menu para que solo aparezca el contacto*/
+@media (max-width: 600px) {
+    .experience__img{
+        display: none;
+    }
+    
+        .menu__list__item {
+            display: none; /* Oculta todos los elementos de la lista */
+        }
+
+        .menu__list__item:last-child {
+            display: block; /* Muestra solo el último elemento de la lista */
+        }
+    }
+
+/*------fin media query-------*/
